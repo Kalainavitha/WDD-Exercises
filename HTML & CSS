@@ -1,0 +1,137 @@
+3) <html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Navi's Portfolio</title>
+    <style>
+        /* General Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        /* Body Styling */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            background-color: #e0f7fa; /* Light oceanic background */
+            color: #023e8a;
+        }
+
+        /* Header */
+        header {
+            background: #0077b6; /* Deep ocean blue */
+            color: white;
+            padding: 20px;
+            text-align: center;
+        }
+        /* Navigation Menu */
+        nav {
+            background: #0096c7; /* Lighter ocean blue */
+        }
+        nav ul {
+            display: flex;
+            justify-content: center;
+            list-style: none;
+        }
+        nav ul li {
+            margin: 0 15px;
+        }
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            padding: 8px 12px;
+            transition: background 0.3s;
+        }
+        nav ul li a:hover {
+            background: #00b4d8;
+            border-radius: 4px;
+        }
+
+        /* Main Content */
+        main {
+            padding: 20px;
+            max-width: 1000px;
+            margin: auto;
+        }
+        .project, .about, .contact {
+            background: white;
+            padding: 15px;
+            margin-bottom: 20px;
+            border-radius: 8px;
+            box-shadow: 0 0 5px rgba(0,0,0,0.1);
+        }
+
+        /* Footer */
+        footer {
+            background: #0077b6;
+            color: white;
+            text-align: center;
+            padding: 15px;
+            margin-top: 20px;
+        }
+    </style>
+</head>
+<body>
+
+    <!-- Header Section -->
+    <header>
+        <h1>Navi's Portfolio</h1>
+        <p>Web Developer | Designer | Creator</p>
+    </header>
+
+    <!-- Navigation Menu -->
+    <nav>
+        <ul>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Main Content Area -->
+    <main>
+
+        <!-- Projects Section -->
+        <section id="projects">
+            <h2>My Projects</h2>
+            
+            <div class="project">
+                <h3>AR Business Card</h3>
+                <p>Developed an Augmented Reality business card experience that allows users to scan and view interactive details using their smartphones.</p>
+            </div>
+
+            <div class="project">
+                <h3>Educational Loan Reminder App</h3>
+                <p>Created a mobile application to help students track and manage their educational loan payments. Participated in Hackathon 2024 with this project.</p>
+            </div>
+
+            <div class="project">
+                <h3>Sustainability in Fast Fashion (Clothing)</h3>
+                <p>Worked on a research and awareness project highlighting environmental impacts of fast fashion, promoting sustainable clothing practices.</p>
+            </div>
+        </section>
+
+        <!-- About Me Section -->
+        <section id="about" class="about">
+            <h2>About Me</h2>
+            <p>This is Navithasri, a girl with optimistic wings & currently pursuing 3rd year Computer Science in PSGRKCW.</p>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="contact">
+            <h2>Contact</h2>
+            <p>Email: <a href="mailto:navithashanmugam@gmail.com">navithashanmugam@gmail.com</a></p>
+            <p>Username: navithashanmugam</p>
+        </section>
+
+    </main>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Navi. All Rights Reserved.</p>
+    </footer>
+
+</body>
+</html>
