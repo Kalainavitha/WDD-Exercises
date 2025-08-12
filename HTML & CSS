@@ -1,4 +1,9 @@
-3) <html lang="en">
+3) Imagine you are building a personal portfolio website. Design a web page layout that
+includes a header, a navigation menu, a main content area for displaying your projects
+and a footer. Explain how you would structure the HTML code and apply CSS styles to
+achieve the desired layout and visual design.
+INPUT CODE:
+<html lang="en">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -136,8 +141,14 @@
 </body>
 </html>
 
-7)
-<!DOCTYPE html>
+7)Create a form which takes the name of the user as input and prints a greeting in the format
+given below and if the user submits the form with the name field blank, it prints an
+appropriate error message.
+
+Hello, Welcome to Everyone!
+Have a nice day!!
+
+INPUT CODE:
 <html>
 <head>
     <title>Greeting Form</title>
