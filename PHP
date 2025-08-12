@@ -259,6 +259,16 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
     <input type="submit" value="Check Grade">
 </form>
 
+13. Consider the following snippet, comment your views.
+$sub = substr(12345, 2, 2);
+echo “sub is $sub”;
+INPUT CODE:
+<?php
+$sub = substr(12345, 2, 2);
+echo "sub is $sub"; // Output: sub is 34
+?>
+OUTPUT:
+sub is 34
 
 14.Show a form with input fields for a user's name, email, and message. When the form is
 submitted, display a confirmation message on the same page with the user's name and
