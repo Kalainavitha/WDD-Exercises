@@ -406,7 +406,7 @@ if ($_SERVER["REQUEST_METHOD"] == "POST") {
 18.IsSet() function in PHP with example.
 The isset() function checks if a variable is set and not null.
 <?php
-$name = "Madhunisha";
+$name = "Navithasri";
 
 if (isset($name)) {
     echo "The variable 'name' is set.";
