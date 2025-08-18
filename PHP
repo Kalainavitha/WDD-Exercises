@@ -661,3 +661,95 @@ function generatePassword($length = 12) {
 
 echo "Random Password: " . generatePassword(12);
 ?>
+
+31. Remove the first element from an array in PHP using array functions.
+Input:
+<?php
+$fruits = ["apple", "banana", "orange", "grape"];
+array_shift($fruits);
+print_r($fruits);
+?>
+Output:
+
+Array
+(
+    [0] => banana
+    [1] => orange
+    [2] => grape
+)
+
+32. Infer the result of the following PHP code?
+a.<?php
+$mail = "admin@example.com";
+$mail = str_replace("a","@",$mail);
+echo "Contact me at $mail.";
+?>
+
+Output:
+
+Contact me at @dmin@ex@mple.com
+
+b. Determine the result of the following PHP code?
+<?php
+$names = array("alex", "jean", "emily", "jane");
+$name = preg_grep("/^e/", $names);
+print_r($name);
+?>
+
+Output:
+Array
+(
+    [2] => emily
+)
+
+33. Construct a PHP code to create a multidimensional array representing a matrix and display the value in
+the second row and third column.
+Input:
+<?php
+$matrix = array(
+    array(1, 2, 3),
+    array(4, 5, 6),
+    array(7, 8, 9)
+);
+echo "Value at second row, third column: " . $matrix[1][2];
+?>
+
+Output:
+Value at second row, third column: 6
+
+34. Replace all occurrences of a specific word with another word in a string using regular expressions in
+PHP.
+<?php
+$text  = "PHP is great. I really enjoy learning PHP!";
+$pattern = "/PHP/";          
+$replacement = "Python";     
+$newText = preg_replace($pattern, $replacement, $text);
+echo $newText;
+?>
+
+Output:
+Python is great. I really enjoy learning Python!
+
+35. Write a PHP script using an array that checks if a string contains another string and displays the result.
+Input:
+<?php
+$strings = array("apple pie", "banana bread", "orange juice");
+$search  = "bread"; 
+$found = false;
+foreach ($strings as $str) {
+    if (strpos($str, $search) !== false) {
+        $found = true;
+        break;
+    }
+}
+if ($found) {
+    echo "The string '$search' was found in the array.";
+} else {
+    echo "The string '$search' was not found in the array.";
+}
+?>
+Output:
+The string 'bread' was found in the array.
+
+
+
