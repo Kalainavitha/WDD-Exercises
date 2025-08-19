@@ -1116,7 +1116,7 @@ Record #3: Michael
 Record #4: Sarah
 
 49. A sports team wants to evaluate player performance based on various statistical metrics. Design a system
-that utilizes numerical types and mathematical operators to calculate performance indices, averages, and
+that utilizes numerical types and mathematical operators to calculate performance indices, averages, and rankings. How would you handle large datasets and perform complex calculations efficiently?
 Input:
 <?php
 $players = [
