@@ -326,16 +326,22 @@ You are now logged in as Admin.[ Logout ]
 <?php
 // Cookie with default parameters
 setcookie("user", "Navithasri");
+
 // Cookie with expiry (1 hour)
 setcookie("session_id", "ABC123", time() + 3600);
+
 // Cookie with path restriction
-setcookie("path_cookie", "restricted", time() + 3600, "/")
+setcookie("path_cookie", "restricted", time() + 3600, "/");
+
 // Cookie with domain restriction
 setcookie("domain_cookie", "example_cookie", time() + 3600, "/", "localhost");
+
 // Cookie with secure and httponly
 setcookie("secure_cookie", "securevalue", time() + 3600, "/", "", true, true);
+
 echo "Cookies have been set!";
 ?>
+
 OUTPUT:
 Cookies have been set
 
